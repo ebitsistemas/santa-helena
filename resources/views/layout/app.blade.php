@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="topbar-one__left">
                     <a href="mailto:recepcao@laticiniosh.com.br"><span class="icon-message"></span>recepcao@laticiniosh.com.br</a>
-                    <a href="tel:45999371483"><span class="icon-phone-call"></span>(45) 99937-1483</a>
+                    <a href="tel:45999371403"><span class="icon-phone-call"></span>(45) 3222-0147</a>
                 </div>
                 <div class="topbar-one__middle">
                     <a href="{{ url('') }}" class="main-nav__logo">
