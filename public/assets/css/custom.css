@@ -1,0 +1,51 @@
+:root {
+    --thm-font: "Barlow", sans-serif;
+    --heading-font: "Amatic SC", cursive;
+    --thm-base: #eb8839;
+    --thm-base-rgb: 237, 221, 94;
+    --thm-primary: #5b8c51;
+    --thm-primary-rgb: 91, 140, 81;
+    --thm-black: #404a3d;
+    --thm-black-rgb: 64, 74, 61;
+    --thm-gray: #eceeef;
+}
+
+.thm-btn{
+    color: white !important;
+}
+.about1_icon-box .circle span{
+    color: rgba(241, 235, 184, 0.5);
+}
+.banner-carousel .content-box h1 {
+    font-size: 100px !important;
+    line-height: 100px !important;
+}
+
+.about_one,
+.service_one,
+.site-footer,
+.contact-one__form__wrap{
+    padding: 60px 0 60px;
+}
+.contact-one__form__wrap .block-title{
+    margin-bottom: 15px !important;
+}
+.icon-focus:before {
+    font-family: "Font Awesome 6 Pro";
+    content: "\f6c8";
+}
+.banner-carousel .content-box h1 {
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: bold;
+}
+.topbar-one {
+    background-color: rgba(241, 235, 184, 0.5);
+}
+.main-nav__main-navigation .main-nav__navigation-box > li {
+    padding: 15px 0px 15px !important;
+}
+.topbar-one__social a {
+    color: #5b8c51;
+    border: 1px solid #5b8c51;
+}
