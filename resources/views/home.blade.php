@@ -73,38 +73,19 @@
         <div class="row mb-5">
             <div class="col-md-8">
                 <div class="row">
-                    <?php
-                    $produtos = [
-                        [
-                            'nome' => 'Mussarela 800gr',
-                            'imagem' => 'images/mussarela-01.jpg'
-                        ],
-                        [
-                            'nome' => 'Mussarela 1,5Kg',
-                            'imagem' => 'images/mussarela-02.jpg'
-                        ],
-                        [
-                            'nome' => 'Mussarela 4Kg',
-                            'imagem' => 'images/mussarela-03.jpg'
-                        ],
-                        [
-                            'nome' => 'Mussarela 5Kg',
-                            'imagem' => 'images/mussarela-04.jpg'
-                        ]
-                    ];
-                    foreach($produtos as $produto){
-                        ?>
+                    @foreach($produtos as $produto)
+
                     <div class="col-md-6 mb-3">
                         <div class="service_1_single wow fadeInUp">
                             <div class="content p-4">
-                                <h3 class="pb-0"><?= $produto['nome'] ?></h3>
+                                <h3 class="pb-0">{{ $produto->nome }}</h3>
                             </div>
                             <div class="service_1_img">
-                                <img src="<?= $produto['imagem'] ?>" alt="Service Image">
+                                <img src="{{ $produto->imagem }}" alt="Service Image">
                             </div>
                         </div>
                     </div>
-                    <?php } ?>
+                    @endforeach
                 </div>
             </div>
             <div class="col-md-4">

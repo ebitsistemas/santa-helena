@@ -37,8 +37,8 @@
         <div class="topbar-one">
             <div class="container">
                 <div class="topbar-one__left">
-                    <a href="mailto:rh@laticiniosh.com.br"><span class="icon-message"></span>rh@laticiniosh.com.br</a>
-                    <a href="tel:4532274711"><span class="icon-phone-call"></span>(45) 3227-4711</a>
+                    <a href="mailto:recepcao@laticiniosh.com.br"><span class="icon-message"></span>recepcao@laticiniosh.com.br</a>
+                    <a href="tel:45999371483"><span class="icon-phone-call"></span>(45) 99937-1483</a>
                 </div>
                 <div class="topbar-one__middle">
                     <a href="{{ url('') }}" class="main-nav__logo">
@@ -139,8 +139,8 @@
                                 GLEBA SAO FRANCISCO<br>
                                 CASCAVEL/PR<br>
                             </p>
-                            <a href="mailto:rh@laticiniosh.com.br"><span class="icon-message"></span> rh@laticiniosh.com.br</a><br>
-                            <a href="tel:4532274711"><span class="icon-phone-call"></span> (45) 3227-4711</a>
+                            <a href="mailto:recepcao@laticiniosh.com.br"><span class="icon-message"></span> recepcao@laticiniosh.com.br</a><br>
+                            <a href="tel:45999371483"><span class="icon-phone-call"></span> (45) 99937-1483</a>
                             <div class="site-footer__social">
                                 <a href="https://www.facebook.com/p/Laticínio-Santa-Helena-100063672297039/"
                                    target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -185,8 +185,8 @@
 
         <div class="side-menu__content">
             <p>
-                <a href="mailto:rh@laticiniosh.com.br">rh@laticiniosh.com.br</a> <br>
-                <a href="tel:4532274711">(45) 3227-4711</a>
+                <a href="mailto:recepcao@laticiniosh.com.br">recepcao@laticiniosh.com.br</a> <br>
+                <a href="tel:45999371483">(45) 99937-1483</a>
             </p>
             <div class="side-menu__social">
                 <a href="https://www.facebook.com/p/Laticínio-Santa-Helena-100063672297039/" target="_blank"><i
