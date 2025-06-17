@@ -12,13 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('produtos', function (Blueprint $table) {
-            Schema::create('produtos', function (Blueprint $table) {
-                $table->id(); // Coluna de ID auto-incremental
-                $table->string('nome'); // Coluna para o nome do produto
-                $table->text('descricao'); // Coluna para o nome do produto
-                $table->string('imagem'); // Coluna para o caminho da imagem
-                $table->timestamps(); // Colunas created_at e updated_at
-            });
+            $table->id(); // Coluna de ID auto-incremental
+            $table->string('nome'); // Coluna para o nome do produto
+            $table->text('descricao'); // Coluna para o nome do produto
+            $table->string('imagem'); // Coluna para o caminho da imagem
+            $table->timestamps(); // Colunas created_at e updated_at
         });
     }
 

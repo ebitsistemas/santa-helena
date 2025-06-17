@@ -78,10 +78,10 @@
                     <div class="col-md-6 mb-3">
                         <div class="service_1_single wow fadeInUp">
                             <div class="content p-4">
-                                <h3 class="pb-0">{{ $produto->nome }}</h3>
+                                <h3 class="pb-0">{{ $produto['nome'] }}</h3>
                             </div>
                             <div class="service_1_img">
-                                <img src="{{ $produto->imagem }}" alt="Service Image">
+                                <img src="{{ $produto['imagem'] }}" alt="Service Image">
                             </div>
                         </div>
                     </div>
